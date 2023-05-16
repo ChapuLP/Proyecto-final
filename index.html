@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coin Base</title>
-</head>
-<body>
-    <header class="header_index">
-        <h1>Coin Base</h1>
-        <nav> 
-            <ul class="navegador_lista">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Inverti</a></li>
-                <li><a href="">Informate</a></li>
-                <li><a href="">Contactanos</a></li>
-            </ul>
-    </nav>
-    </header>
-    <main>
-            <input placeholder="Monto a invertir en dolares" type="number">
-            <button  onclick="invertir()">Calcular</button>
-    </main>
-    
-</body>
-<script src="javascript.js"></script>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>COIN BASE</h1>
+        <p class="established">Since. 2023</p>
+        <hr>
+        <section>
+          <h2>Activos</h2>
+          <article class="item">
+            <p class="activos">Euro</p><p class="price">Valor live Euro</p><input type="text"><button>Invertir</button>
+          </article>
+          <article class="item">
+            <p class="activos">Dolar</p><p class="price">Valor live dolar</p><input type="text"><button>Invertir</button>
+          </article>
+          <article class="item">
+            <p class="activos">Real</p><p class="price">Valor live real</p><input type="text"><button>Invertir</button>
+          </article>
+        </section>
+        <section>
+          <h2>Acciones e indices</h2>
+          <article class="item">
+            <p class="indices_acciones">S&P 500</p><p class="price">valor</p><input type="text"><button>Invertir</button>
+          </article>
+          <article class="item">
+            <p class="indices_acciones">Nasdq 100</p><p class="price">valor</p<input type="text">><button>Invertir</button>
+          </article>
+          <article class="item">
+            <p class="indices_acciones">Microsoft</p><p class="price">valor</p><input type="text"><button>Invertir</button>
+          </article>
+          <article class="item">
+            <p class="indices_acciones">Apple</p><p class="price">valor</p><input type="text"><button>Invertir</button>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="index.html" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">Encontranos en Buenos Aires, Calle falsa 123</p>
+      </footer>
+    </div>
+  </body>
 </html>
