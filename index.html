@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coin Base</title>
     <link href="styles.css" rel="stylesheet"/>
-    <script src="javascript.js"></script>
   </head>
   <body>
     <div class="menu">
@@ -16,22 +15,22 @@
         <section>
           <h2>Activos</h2>
           <article class="item">
-            <p class="activos">Euro</p><p class="price">Valor live Euro</p><input type="text"><button>Invertir</button>
+            <p class="activos">Euro</p><p class="price">Valor live Euro</p><input id="entryEuro" type="number"><button type="submit" id="btnEU">Comprar</button>
           </article>
           <article class="item">
-            <p class="activos">Dolar</p><p class="price">Valor live dolar</p><input type="text"><button>Invertir</button>
+            <p class="activos">Dolar</p><p class="price">Valor live dolar</p><input id="entryUSD" type="number"><button type="submit" id="btnUSD">Comprar</button>
           </article>
           <article class="item">
-            <p class="activos">Real</p><p class="price">Valor live real</p><input type="text"><button>Invertir</button>
+            <p class="activos">Real</p><p class="price">Valor live Real</p><input id="entryUSD" type="number"><button type="submit" id="btnUSD">Comprar</button>
           </article>
         </section>
         <section>
           <h2>Acciones e indices</h2>
           <article class="item">
-            <p class="indices_acciones">S&P 500</p><p class="price">valor</p><input type="text"><button>Invertir</button>
+            <p class="indices_acciones">S&P 500</p><p class="price">valor</p><input id="entrySPX" type="number"><button id="btnSPX">Invertir</button>
           </article>
           <article class="item">
-            <p class="indices_acciones">Nasdq 100</p><p class="price">valor</p<input type="text">><button>Invertir</button>
+            <p class="indices_acciones">Nasdq 100</p><p class="price">valor</p><input type="text"><button>Invertir</button>
           </article>
           <article class="item">
             <p class="indices_acciones">Microsoft</p><p class="price">valor</p><input type="text"><button>Invertir</button>
@@ -49,5 +48,8 @@
         <p class="address">Encontranos en Buenos Aires, Calle falsa 123</p>
       </footer>
     </div>
+
+    <script src="main.js"></script>
   </body>
+
 </html>
